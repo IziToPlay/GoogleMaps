@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/imgBtnJockeyPlaza"
+        android:layout_alignParentLeft="true"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/img_jockey_plaza"
+        android:scaleType="centerCrop"
+        android:background="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnMolicentro"
+        android:layout_below="@id/imgBtnJockeyPlaza"
+        android:layout_alignParentRight="true"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/img_molicentro"
+        android:scaleType="centerCrop"
+        android:background="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnMonumental"
+        android:layout_below="@id/imgBtnJockeyPlaza"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/img_monumental"
+        android:scaleType="centerCrop"
+        android:background="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/imgBtnUpc"
+        android:layout_alignParentRight="true"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:src="@mipmap/img_upc"
+        android:scaleType="centerCrop"
+        android:background="@color/white"/>
+
+</RelativeLayout>

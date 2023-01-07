@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">taregooglemaps</string>
+    <string name="title_activity_map_one">map_one</string>
+    <string name="title_activity_map_two">map_two</string>
+    <string name="title_activity_map_three">map_three</string>
+    <string name="title_activity_map_four">map_four</string>
+</resources>
